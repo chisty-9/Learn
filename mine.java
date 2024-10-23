@@ -23,9 +23,9 @@ public class mine {
                 win = true;
                 System.out.println("Congratulations! You guessed the number in " + numberOfTries + " tries.");
             } else if (guess < numberToGuess) {
-                System.out.println("Too low! Try again.");
+                System.out.println("Too low!! Try again please.");
             } else {
-                System.out.println("Too high! Try again.");
+                System.out.println("Too high!! Try again please.");
             }
         }
 
